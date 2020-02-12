@@ -1,12 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+ <head>
+   <meta charset="utf-8">
+   <title>HTML Academy: Барбершоп-главная</title>
+ </head>
 
-  </body>
+ <body>
+
+   <header>
+     <nav>
+       <a href="index.html"><img src="img/index/index-logo.svg" width="371"
+          height="153" alt="Логотип барбершопа «Бородинский»"></a>
+       <ul>
+         <li><a href="#info">Информация</a></li>
+         <li><a href="#news">Новости</a></li>
+         <li><a href="#price">Прайс-лист</a></li>
+         <li><a href="catalog.html">Магазин</a></li>
+         <li><a href="#contacts">Контакты</a></li>
+       </ul>
+       <ul>
+         <li>
+           <button type="button">Вход</button>
+         </li>
+       </ul>
+     </nav>
+   </header>
+
+   <main>
+     <h1>Барбершоп «Бородинский»</h1>
+
+     <section>
+       <h2>Преимущества</h2>
+
+       <ul>
+         <li>
+           <h3>Быстро</h3>
+           <p>Мы Делаем Свою Работу Быстро! Два Часа<br>
+             Пролетят Незаметно И Вы — Счастливый<br>
+             Обладатель Стильной Стрижки-Минутки!
+           </p>
+         </li>
+         <li>
+           <h3>Круто</h3>
+           <p>Забудьте, Как Вы Стриглись Раньше.<br>
+             Мы Сделаем Из Вас Звезду Футбола Или Кино!<br>
+             Во Всяком Случае Внешне.
+           </p>
+         </li>
+         <li>
+           <h3>Дорого</h3>
+           <p>Наши Мастера — Профессионалы Своего Дела И<br>
+             Не Могут Стоить Дешево. К Тому Же, Разве Цена<br>
+             Не Дает Определенный Статус?
+           </p>
+         </li>
+       </ul>
+     </section>
+
+     <section>
+       <h2>Новости</h2>
+
+       <ul>
+         <li>
+           <a href="#news">
+             <p>Нам Наконец Завезли Ягермайстер! Теперь Вы Можете<br>
+               Пропустить Стаканчик Во Время Стрижки
+             </p>
+             <time datetime="2020-01-11">11 января</time>
+           </a>
+         </li>
+         <li>
+           <a href="#news">
+             <p>В Нашей Команде Пополнение, Борис «Бритва» Стригунец,<br>
+               Обладaтель Множества Титулов И Наград Пополнил Наши<br>
+               Стройные Ряды
+             </p>
+             <time datetime="2020-01-18">18 января</time>
+           </a>
+         </li>
+       </ul>
+       <a href="#news">Все новости</a>
+     </section>
+
+     <section>
+       <h2>Фотогалерея</h2>
+
+       <figure>
+         <img src="img/index/studio.jpg" width="286"
+         height="164" alt="Интерьер">
+       </figure>
+       <button type="button">Назад</button>
+       <button type="button">Вперед</button>
+     </section>
+
+     <section>
+       <h2>Контактная информация</h2>
+
+       <p>Барбершоп «Бородинский»<br>
+         Адрес: Г. Санкт-Петербург, Б. Конюшенная, Д. 19/8<br>
+         Телефон: +7 (495) 666-02-66
+       </p>
+
+       <p>Время Работы:<br>
+         Пн—Пт: С 10:00 До 22:00<br>
+         Сб—Вс: С 10:00 До 19:00
+       </p>
+
+       <button type="button">Как проехать</button>
+       <a href="#contacts">Обратная связь</a>
+     </section>
+
+     <section>
+       <h2>Записаться</h2>
+
+       <p>Укажите Желаемую Дату И Время И Мы Свяжемся<br>
+         С Вами Для Подтверждения Брони
+       </p>
+       <!-- Здесь будет форма -->
+       <button type="submit">Отправить</button>
+     </section>
+   </main>
+
+   <footer>
+     <p>
+       Барбершоп «Бородинский»<br>
+       Адрес: Г. Санкт-Петербург, Ул. Б. Конюшенная, Д. 19/8<br>
+       <a href="#map">Как Нас Найти?</a><br>
+       Телефон: +7 (495) 666-02-66
+     </p>
+
+     <div>
+       <p>Давайте дружить!</p>
+       <ul>
+         <li><a href="#vk">ВКонтакте</a></li>
+         <li><a href="#fb">Фейсбук</a></li>
+         <li><a href="#ig">Инстаграм</a></li>
+       </ul>
+     </div>
+
+     <p>
+       Разработано:
+       <a href="https://htmlacademy.ru/">HTML Academy</a>
+     </p>
+   </footer>
+
+   <section>
+     <h2>Личный кабинет</h2>
+     <p>Введите Пожалуйста Свой Логин И Пароль</p>
+     <!-- Здесь будет форма -->
+     <button type="submit">Войти</button>
+     <button type="button">Закрыть</button>
+   </section>
+
+   <section>
+     <h2>Как до нас добраться</h2>
+     <button type="button">Закрыть</button>
+   </section>
+ </body>
 </html>
